@@ -31,18 +31,27 @@ gcloud cloud-shell ssh --authorize-session --command="sudo apt update && sudo ap
 ~/go/bin/nuclei -u example.com -t http/cves/
 
 # Update templates
+```
 ~/go/bin/nuclei -update-templates
 ```
----
 # Examples
 ## Menggunakan testphp.vulnweb.com (situs khusus untuk testing)
+```
+```
 gcloud cloud-shell ssh --authorize-session --command="~/go/bin/nuclei -u http://testphp.vulnweb.com"
-
+```
+```
 ## Menggunakan DVWA (Damn Vulnerable Web Application)
+
+```
 gcloud cloud-shell ssh --authorize-session --command="~/go/bin/nuclei -u http://dvwa.co.uk"
+```
 
 ## Menggunakan localhost/lab environment sendiri
+
+```
 gcloud cloud-shell ssh --authorize-session --command="~/go/bin/nuclei -u http://localhost"
+```
 ---
 
 
