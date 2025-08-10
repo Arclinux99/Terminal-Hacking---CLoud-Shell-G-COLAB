@@ -7,3 +7,5 @@ gcloud cloud-shell ssh --command="sudo -i"
 ```
 gcloud cloud-shell ssh --command="sudo pacman -Sy"
 ```
+---
+#nuclei installaltion
